@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ml-feature-store
+    env: python
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
+    plan: free
+    autoDeploy: true
+    branch: main
+    rootDir: ML_Feature_Store
