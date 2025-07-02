@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    schema: public
+    tables:
+      - name: stg_customers
+      - name: stg_products
+      - name: stg_orders
+      - name: stg_event_logs

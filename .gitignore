@@ -1,0 +1,67 @@
+# ----------------------------
+# 🔒 General & OS/IDE Settings
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE configs
+.vscode/
+.idea/
+
+# ----------------------------
+# 🐍 Python Environments
+# ----------------------------
+.venv/
+env/
+venv/
+*.env
+
+# ----------------------------
+# 📁 Jupyter Notebooks
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# ⚙️ DBT Project
+# ----------------------------
+# DBT - Ignore generated & install folders
+/DBT/de_project/dbt_packages/
+/DBT/de_project/logs/
+/DBT/de_project/target/
+/DBT/de_project/.user
+
+
+# Compiled files
+**/manifest.json
+**/run_results.json
+**/catalog.json
+
+# Sensitive Profiles (optional)
+~/.dbt/profiles.yml
+
+# ----------------------------
+# 🚀 ML Feature Store (FastAPI)
+# ----------------------------
+/ML_Feature_Store/.env
+/ML_Feature_Store/__pycache__/
+/ML_Feature_Store/*.pyc
+
+# ----------------------------
+# 🧪 Unit test artifacts
+# ----------------------------
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+pytest_cache/
+
+# ----------------------------
+# 📦 Package Lock Files
+# ----------------------------
+package-lock.json
+Pipfile.lock
